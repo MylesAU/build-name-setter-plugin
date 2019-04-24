@@ -8,4 +8,9 @@ jdk:
   - oraclejdk8
 
 deploy:
+  provider: releases
+  api_key: 2e393cbf521919358923ea7e626e231ab0c95fde
+  file: /home/travis/build/MylesAU/build-name-setter-plugin/target/build-name-setter.hpi
   skip_cleanup: true
+  on:
+    tags: true
