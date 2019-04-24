@@ -8,6 +8,6 @@ deploy:
   provider: releases
   api_key:
     secure: XZS5QV1wu0G76xoTDiC5mQGb0BQ7URwALiLse0qMtvm1KlLP3JjLgrKT12KT18ZB31uag4m+KuUipQzf0oTwretpE9jg5sQrOLugcYtqHlDZWdh8tVZXXbEbD+w7PXWyQ3OENwGmmnNY2DdYZ0DE7090ROed6axTai8/BeR0llklsx6j8vAReKqLfxazjicTcjl6fwtt8ARjXOcV0t3fNaGr2QE4CfMLGyBoyI8VdunDQ3YmQ5++EzA4z5q8gE1jcO4zILGqoY+4UOE86I2KFhjfIrpmL/7tXonEmM6r6VyKmb4b5NiV7/P1KAyHUlKlDqxSdV623AH3AJgZb2WUv7+vFUna8lIGtwPIhRPlTCU8d32cp5hKlxihxjCkxJXdmsjfFy99Apyeau2cIDXxZcIEEC5TfCbteRxhfRQ0AMPCZeWfQs24PD17XmC6aK7hGLwEX1jrFMN/8YFhWaLrJXjistT9btFnGwGe/jmEb0GfxyYMmOlkqeXBhaz+8bYIJ6yYD0T1Z6QlvpGfE0XsWzeHXJW4f9AuQ2Ubjgk1+WGy4Ar5CtUkV9uJNebSl622k3LhYLoREkTAiGWltOucUFjkRwkHv/75X3Ou8khF6c5o5asAR+2oZc9EMh3QFAkeCReoior8WG5i3U39Y8nPG2ltAcGlgNd8j42s0oi5sRI=
-  file: "/home/travis/build/MylesAU/build-name-setter-plugin/target/build-name-setter.hpi"
+  file: "*/build-name-setter.hpi"
   on:
     repo: MylesAU/build-name-setter-plugin
